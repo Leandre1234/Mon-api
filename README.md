@@ -1,14 +1,12 @@
-# Mon API
-
-## Installation
+# Installation
 1. Clone the repository
-2. Run `npm install`
-3. Create `.env` file based on `.env.example`
-4. Run `npm run dev`
+2. Run npm install
+3. Run npm run dev
 
-## API Endpoints
-- GET `/api/products` - Get all products
-- POST `/api/products` - Create new product
-
-## Testing
-Run `npm test`
+# API Endpoints(CRUD)
+- GET /api/products - Recupere tous les product
+- POST /api/products - Creer un nouveau product
+-UPDATE /api/products mise a jour un nouveau product
+-DELETE /api/products Suprimmer un product
+# Testing
+Run npm test
