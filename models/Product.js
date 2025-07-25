@@ -7,7 +7,7 @@ const productSchema = new mongoose.Schema({
   // Nom du produit (obligatoire)
   name: { type: String, required: true },
 
-  // Description du produit (facultative)
+
   description: String,
 
   // Prix du produit (obligatoire, doit être ≥ 0)
